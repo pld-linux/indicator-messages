@@ -27,8 +27,11 @@ BuildRequires:	libtool
 BuildRequires:	pkgconfig
 BuildRequires:	rpm-build >= 4.6
 BuildRequires:	sed >= 4.0
+Requires(post,postun):	glib2 >= 1:2.33.10
+Requires(post,postun):	gtk-update-icon-cache
 Requires:	%{name}-libs = %{version}-%{release}
 Requires:	gtk+3 >= 3.5.18
+Requires:	hicolor-icon-theme
 Requires:	libindicator-gtk3 >= 0.3.19
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
