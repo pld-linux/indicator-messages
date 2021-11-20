@@ -7,7 +7,7 @@ Summary:	Messaging Menu
 Summary(pl.UTF-8):	Messaging Menu - menu narzędzi do komunikacji
 Name:		indicator-messages
 Version:	12.10.5
-Release:	1
+Release:	2
 License:	GPL v3+
 Group:		Libraries
 #Source0Download: https://launchpad.net/indicator-messages
